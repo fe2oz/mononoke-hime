@@ -10,15 +10,15 @@ $(function(){
     });
 
     $("#mi_ig3").click(function(){
-        $("body").css({"background":"url(img/mononoke046.jpg"});
+        $("body").css({"background":"url(img/mononoke046.jpg"}).css("background-size", "100% 100%");;
     });
 
     $("#mi_ig4").click(function(){
-        $("body").css({"background":"url(img/mononoke023.jpg"});
+        $("body").css({"background":"url(img/mononoke023.jpg"}).css("background-size", "100% 100%");;
     });
 
     $("#mi_ig5").click(function(){
-        $("body").css({"background":"url(img/mononoke044.jpg"});
+        $("body").css({"background":"url(img/mononoke044.jpg"}).css("background-size", "100% 100%");;
     });
 
     $('#mi_cho nav ul li').click(function(){
@@ -28,3 +28,5 @@ $(function(){
     
     
 })
+
+
