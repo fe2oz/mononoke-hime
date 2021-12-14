@@ -1,0 +1,156 @@
+@keyframes test{
+    16.65% {
+        -webkit-transform: translateX(6px);
+        transform: translateX(6px);
+      }
+      33.3% {
+        -webkit-transform: translateX(-5px);
+        transform: translateX(-5px);
+      }
+      49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+      }
+      66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+      }
+      83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+      }
+      100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+      }
+}
+#r_aw:hover,
+#l_aw:hover{
+    animation-name:test;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+
+    
+@media(min-width:1000px){
+
+    html{
+        width:100%; height:100vh;
+        overflow: hidden;
+    }
+    
+    body{
+        width:100%; height:100vh;
+        background: url(../../../img/mononoke024-1.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
+    
+    #slider{
+        width:100%; height:80vh;
+        display:flex; flex-flow: row wrap; align-items: center; justify-content: space-around;
+        position:relative;
+    }
+        
+        #ga_sl1{
+            width:18vw; height:18vh;
+            cursor: pointer;
+        }
+        #ga_sl1:hover{
+            filter: opacity(0.8) drop-shadow(0 0 0 black);
+        }
+        #r_aw{
+            width:3vw;
+            position:absolute; top:47%; right:2%;
+            filter:invert(1);
+            cursor: pointer;
+        }
+        #l_aw{
+            width:3vw;
+            position:absolute; top:47%; left:2%;
+            filter:invert(1);
+            cursor: pointer;
+        }
+}
+
+@media(min-width:600px) and (max-width:999px){
+
+    html{
+        width:100%; height:auto;
+    }
+    
+    body{
+        width:100%; height:100%;
+        background: url(../../../img/ac90ff3a1378d7167aaef109a0a615fb-1.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
+
+    #slider{
+        width:100%; height:100%;
+        display:flex; flex-flow:row wrap; align-items: center; justify-content: space-evenly;
+        position:relative;
+        padding-top:80px;
+    }
+        
+        #ga_sl1{
+            width:40vw; height:18vh;
+            cursor: pointer;
+            margin-bottom:3%;
+        }
+        #ga_sl1:hover{
+            filter: opacity(0.8) drop-shadow(0 0 0 black);
+        }
+        #r_aw{
+            width:5vw;
+            position:absolute; bottom:0; right:2%;
+            filter:invert(1);
+            cursor: pointer;
+        }
+        #l_aw{
+            width:5vw;
+            position:absolute; bottom:0; left:2%;
+            filter:invert(1);
+            cursor: pointer;
+        }
+}
+
+@media(max-width:599px){
+    html{
+        width:100%; height:auto;
+    }
+    
+    body{
+        width:100%; height:100%;
+        background: url(../../../img/ac90ff3a1378d7167aaef109a0a615fb-1.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
+
+    #slider{
+        width:100%; height:100%;
+        display:flex; flex-flow:row wrap; align-items: center; justify-content: space-evenly;
+        position:relative;
+        padding-top:80px;
+    }
+        
+        #ga_sl1{
+            width:40vw; height:18vh;
+            cursor: pointer;
+            margin-bottom:3%;
+        }
+        #ga_sl1:hover{
+            filter: opacity(0.8) drop-shadow(0 0 0 black);
+        }
+        #r_aw{
+            width:9vw;
+            position:absolute; bottom:0; left:2%;
+            filter:invert(1);
+            cursor: pointer;
+        }
+        #l_aw{
+            width:9vw;
+            position:absolute; bottom:0; left:2%;
+            filter:invert(1);
+            cursor: pointer;
+        }
+}
