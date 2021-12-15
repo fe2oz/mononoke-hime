@@ -25,7 +25,8 @@ body{
         #cv1,
         #cv2,
         #cv3,
-        #cv4{
+        #cv4,
+        #cv5{
             position:absolute; top:0; left:0;
             transition:0.35s;
         }
@@ -35,6 +36,9 @@ body{
         width:37%; height:100%;
         background-color:orangered;
         display:flex; justify-content: space-evenly; align-items: center;
+    }
+    #clip_video_cho nav ul{
+        display:flex; flex-flow:row wrap; align-items: center; justify-content: space-evenly;
     }
     #clip_video_cho nav ul li img{
         width:18vw;

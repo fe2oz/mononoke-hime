@@ -6,6 +6,7 @@ $(function(){
         $("#cv2").hide();
         $("#cv3").hide();
         $("#cv4").hide();
+        $("#cv5").hide();
     })
 
     $("#cvc2").click(function(){
@@ -13,6 +14,7 @@ $(function(){
         $("#cv1").hide();
         $("#cv3").hide();
         $("#cv4").hide();
+        $("#cv5").hide();
     })
 
     $("#cvc3").click(function(){
@@ -20,6 +22,7 @@ $(function(){
         $("#cv1").hide();
         $("#cv2").hide();
         $("#cv4").hide();
+        $("#cv5").hide();
     })
 
     $("#cvc4").click(function(){
@@ -27,5 +30,14 @@ $(function(){
         $("#cv1").hide();
         $("#cv2").hide();
         $("#cv3").hide();
+        $("#cv5").hide();
+    })
+
+    $("#cvc5").click(function(){
+        $("#cv5").show();
+        $("#cv1").hide();
+        $("#cv2").hide();
+        $("#cv3").hide();
+        $("#cv4").hide();
     })
 })
