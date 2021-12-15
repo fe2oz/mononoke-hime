@@ -7,6 +7,7 @@ $(function(){
         $("#cv3").hide();
         $("#cv4").hide();
         $("#cv5").hide();
+        $("#cv6").hide();
     })
 
     $("#cvc2").click(function(){
@@ -15,6 +16,7 @@ $(function(){
         $("#cv3").hide();
         $("#cv4").hide();
         $("#cv5").hide();
+        $("#cv6").hide();
     })
 
     $("#cvc3").click(function(){
@@ -23,6 +25,7 @@ $(function(){
         $("#cv2").hide();
         $("#cv4").hide();
         $("#cv5").hide();
+        $("#cv6").hide();
     })
 
     $("#cvc4").click(function(){
@@ -31,6 +34,7 @@ $(function(){
         $("#cv2").hide();
         $("#cv3").hide();
         $("#cv5").hide();
+        $("#cv6").hide();
     })
 
     $("#cvc5").click(function(){
@@ -39,5 +43,15 @@ $(function(){
         $("#cv2").hide();
         $("#cv3").hide();
         $("#cv4").hide();
+        $("#cv6").hide();
+    })
+
+    $("#cvc6").click(function(){
+        $("#cv6").show();
+        $("#cv1").hide();
+        $("#cv2").hide();
+        $("#cv3").hide();
+        $("#cv4").hide();
+        $("#cv5").hide();
     })
 })

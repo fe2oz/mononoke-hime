@@ -26,7 +26,8 @@ body{
         #cv2,
         #cv3,
         #cv4,
-        #cv5{
+        #cv5,
+        #cv6{
             position:absolute; top:0; left:0;
             transition:0.35s;
         }
@@ -41,9 +42,10 @@ body{
         display:flex; flex-flow:row wrap; align-items: center; justify-content: space-evenly;
     }
     #clip_video_cho nav ul li img{
-        width:18vw;
+        width:18vw; height:18vh;
         cursor: pointer;
     }
+    
     #clip_video_cho nav ul li img:hover{
         filter: opacity(0.8) drop-shadow(0 0 0 black);
     }
