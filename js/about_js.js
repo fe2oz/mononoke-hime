@@ -53,4 +53,8 @@ $(function(){
         $("#ashitaka").fadeIn();
         $("#san").fadeOut();
     })
+
+
+
+    
 })

@@ -21,7 +21,18 @@ body{
         }
         #poster_show{
             width:100%; height:30%;
-            background-color:steelblue;
+            display:flex; flex-flow:column; justify-content: center;
+        }
+        #poster_show h1{
+            font-family: 'Pretendard-Regular'; font-size:1.3vw;
+            color:#006e8f;
+            padding:2%;
+            border-bottom:1px solid #006e8f;
+        }
+        #poster_show p{
+            font-family: 'Pretendard-Regular'; font-size:0.8vw;
+            color:#e5e5e5;
+            padding:2%;
         }
     #sl_character{
         width:50%; height:100%;
@@ -53,7 +64,7 @@ body{
         #san_show{
             width:100%; height:25%;
             margin-top:1%;
-            background-color:teal;
+            border:1px solid white;
         }
         #ashitaka_cho nav ul,
         #san_cho nav ul{
@@ -61,48 +72,70 @@ body{
         }
         #ashitaka_cho nav ul li,
         #san_cho nav ul li{
-            width:10vw; height:100%;
+            width:10vw;
             cursor: pointer;
         }
         #ashitaka_cho nav ul li img,
         #san_cho nav ul li img{
-            width:100%; height:100%;
+            width:100%; height:10vh;
         }
         #ashitaka_cho nav ul li img:hover,
         #san_cho nav ul li img:hover{
             filter: opacity(0.8) drop-shadow(0 0 0 black);
         }
+
+
     #sl_character_cho{
         width:18%; height:100%;
-        background-color:salmon;
         position:relative;
         text-align: center;
-        display:flex; flex-flow:column; justify-content: center; align-items: center;
+        display:flex; flex-flow:column; justify-content: space-evenly; align-items: center;
+        order:2;
     }
         #san_cho2,
-        #ashitaka_cho2{
+        #ashitaka_cho2,
+        #yakur_cho2{
             width:100%; height:20vh;
             display:flex; align-items: center; justify-content: flex-end;
-            background-color:slategray;
             cursor: pointer;
         }
             #san_cho2:hover,
-            #ashitaka_cho2:hover{
+            #ashitaka_cho2:hover,
+            #yakur_cho2:hover{
                 filter: opacity(0.8) drop-shadow(0 0 0 black);
             }
         #san_main,
-        #ashitaka_main{
+        #ashitaka_main,
+        #yakur_main{
             width:50%; height:100%;
         }
             #san_main img,
-            #ashitaka_main img{
+            #ashitaka_main img,
+            #yakur_main img{
                 width:100%; height:100%;
             }
         #san_show2,
-        #ashitaka_show2{
+        #ashitaka_show2,
+        #yakur_show2{
             width:50%; height:100%;
-            background-color:olive;
+            display:flex; flex-flow:column; justify-content: center;
+            border:1px solid white;
         }
+            #san_show2 h1,
+            #ashitaka_show2 h1{
+                font-family: 'Pretendard-Regular'; font-size:1.3vw;
+                color:#006e8f;
+            }
+            #san_show2 p,
+            #ashitaka_show2 p{
+                font-family: 'Pretendard-Regular'; font-size:0.8vw;
+                color:#e5e5e5;
+            }
+            #san_show2 p:nth-of-type(1),
+            #ashitaka_show2 p:nth-of-type(1){
+                padding-top:3%;
+                text-decoration: underline;
+            }
         #up,
         #down{
             width:3vw;
