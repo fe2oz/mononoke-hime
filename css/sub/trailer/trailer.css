@@ -1,14 +1,16 @@
-html{
-    width:100%; height:100vh;
-    overflow: hidden;
-}
 
-body{
-    width:100%; height:100vh;
-    background-image: url(../../../img/mononoke012.jpg);
-    background-repeat: no-repeat; background-size:100% 100%;
-}
 
+@media(min-width:1000px){
+    html{
+        width:100%; height:100vh;
+        overflow: hidden;
+    }
+    
+    body{
+        width:100%; height:100vh;
+        background-image: url(../../../img/mononoke012.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
 #slider{
     width:100%; height:80vh;
     display:flex; justify-content: space-evenly;
@@ -16,8 +18,7 @@ body{
 
     #clip_video{
         width:80%; height:100%;
-        background-color:orange;
-        position:relative;
+        position:relative; z-index:2;
     }
         #cv1{
             z-index:5;
@@ -27,7 +28,8 @@ body{
         #cv3,
         #cv4,
         #cv5,
-        #cv6{
+        #cv6,
+        #cv7{
             position:absolute; top:0; left:0;
             transition:0.35s;
         }
@@ -37,7 +39,7 @@ body{
         width:20%; height:100%;
         display:flex; justify-content: space-evenly; align-items: center;
         overflow:hidden;
-        position:relative;
+        position:relative; z-index:2;
     }
     #clip_video_cho nav ul{
         display:flex; flex-flow:row wrap; align-items: center; justify-content: space-evenly;
@@ -52,9 +54,16 @@ body{
     }
         #up,
         #down{
+            width:3vw;
             position:absolute; z-index:6;
             cursor:pointer;
-            filter:opacity(0.7) drop-shadow(0 0 0 #e40038);
+            filter:invert(0);
+            background-color:lightgray;
+        }
+        #up:hover,
+        #down:hover{
+            background-color:white;
+            filter:invert(1)
         }
         #up{
             top:0;
@@ -62,3 +71,234 @@ body{
         #down{
             bottom:0; 
         }
+}
+
+@media(min-width:600px) and (max-width:700px){
+    html{
+        width:100%; height:100vh;
+        overflow: hidden;
+    }
+    
+    body{
+        width:100%; height:100vh;
+        background-image: url(../../../img/mononoke012.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
+#slider{
+    width:100%; height:80vh;
+    display:flex; justify-content: space-evenly; flex-flow:column wrap; 
+    padding-top:80px;
+}
+
+    #clip_video{
+        width:100%; height:80%;
+        position:relative; z-index:2;
+    }
+        #cv1{
+            z-index:5;
+        }
+        #cv1,
+        #cv2,
+        #cv3,
+        #cv4,
+        #cv5,
+        #cv6,
+        #cv7{
+            position:absolute; top:0; left:0;
+            transition:0.35s;
+        }
+        
+
+    #clip_video_cho{
+        width:100%; height:20%;
+        display:flex; justify-content: space-evenly; align-items: center;
+        overflow:hidden;
+        position:relative; z-index:2;
+    }
+    #clip_video_cho nav ul{
+        display:flex; flex-flow:row; align-items: center; justify-content: space-evenly;
+        overflow:hidden;
+    }
+    
+    #clip_video_cho nav ul li img{
+        width:20vw; height:15vh;
+        cursor: pointer;
+    }
+    
+    #clip_video_cho nav ul li img:hover{
+        filter: opacity(0.8) drop-shadow(0 0 0 black);
+    }
+        #up,
+        #down{
+            width:6vw;
+            position:absolute; z-index:6;
+            cursor:pointer;
+            filter:invert(0);
+            background-color:lightgray;
+        }
+        #up:hover,
+        #down:hover{
+            background-color:white;
+            filter:invert(1)
+        }
+        #up{
+            left:0;
+            transform:rotate(-90deg)
+        }
+        #down{
+            right:0;
+            transform:rotate(-90deg)
+        }
+}
+
+@media(min-width:701px) and (max-width:999px){
+    html{
+        width:100%; height:100vh;
+        overflow: hidden;
+    }
+    
+    body{
+        width:100%; height:100vh;
+        background-image: url(../../../img/mononoke012.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
+#slider{
+    width:100%; height:80vh;
+    display:flex; justify-content: space-evenly;
+    padding-top:80px;
+}
+
+    #clip_video{
+        width:80%; height:100%;
+        position:relative; z-index:2;
+    }
+        #cv1{
+            z-index:5;
+        }
+        #cv1,
+        #cv2,
+        #cv3,
+        #cv4,
+        #cv5,
+        #cv6,
+        #cv7{
+            position:absolute; top:0; left:0;
+            transition:0.35s;
+        }
+        
+
+    #clip_video_cho{
+        width:20%; height:100%;
+        display:flex; justify-content: space-evenly; align-items: center;
+        overflow:hidden;
+        position:relative; z-index:2;
+    }
+    #clip_video_cho nav ul{
+        display:flex; flex-flow:row wrap; align-items: center; justify-content: space-evenly;
+    }
+    #clip_video_cho nav ul li img{
+        width:18vw; height:18vh;
+        cursor: pointer;
+    }
+    
+    #clip_video_cho nav ul li img:hover{
+        filter: opacity(0.8) drop-shadow(0 0 0 black);
+    }
+        #up,
+        #down{
+            width:5vw;
+            position:absolute; z-index:6;
+            cursor:pointer;
+            filter:invert(0);
+            background-color:lightgray;
+        }
+        #up:hover,
+        #down:hover{
+            background-color:white;
+            filter:invert(1)
+        }
+        #up{
+            top:0;
+        }
+        #down{
+            bottom:0; 
+        }
+}
+
+@media(max-width:599px){
+
+    html{
+        width:100%; height:auto;
+    }
+    
+    body{
+        width:100%; height:100%;
+        background: url(../../../img/mononoke012.jpg);
+        background-repeat: no-repeat; background-size:100% 100%;
+    }
+    #slider{
+    width:100%; height:80vh;
+    display:flex; justify-content: space-evenly; flex-flow:column wrap; 
+    padding-top:80px;
+}
+
+    #clip_video{
+        width:100%; height:80%;
+        position:relative; z-index:2;
+    }
+        #cv1{
+            z-index:5;
+        }
+        #cv1,
+        #cv2,
+        #cv3,
+        #cv4,
+        #cv5,
+        #cv6,
+        #cv7{
+            position:absolute; top:0; left:0;
+            transition:0.35s;
+        }
+        
+
+    #clip_video_cho{
+        width:100%; height:20%;
+        display:flex; justify-content: space-evenly; align-items: center;
+        overflow:hidden;
+        position:relative; z-index:2;
+    }
+    #clip_video_cho nav ul{
+        display:flex; flex-flow:row; align-items: center; justify-content: space-evenly;
+        overflow:hidden;
+    }
+    
+    #clip_video_cho nav ul li img{
+        width:30vw; height:15vh;
+        cursor: pointer;
+    }
+    
+    #clip_video_cho nav ul li img:hover{
+        filter: opacity(0.8) drop-shadow(0 0 0 black);
+    }
+        #up,
+        #down{
+            width:8vw;
+            position:absolute; z-index:6;
+            cursor:pointer;
+            filter:invert(0);
+            background-color:lightgray;
+        }
+        #up:hover,
+        #down:hover{
+            background-color:white;
+            filter:invert(1)
+        }
+        #up{
+            left:0;
+            transform:rotate(-90deg)
+        }
+        #down{
+            right:0;
+            transform:rotate(-90deg)
+        }
+}

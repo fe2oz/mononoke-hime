@@ -10,7 +10,7 @@ $(function(){
     });
 
     $("#mi_ig3").click(function(){
-        $("body").css({"background":"url(img/mononoke046.jpg"}).css("background-size", "100% 100%");;
+        $("body").css({"background":"url(img/mononoke033.jpg"}).css("background-size", "100% 100%");;
     });
 
     $("#mi_ig4").click(function(){
@@ -28,5 +28,7 @@ $(function(){
     
     
 })
+
+
 
 
