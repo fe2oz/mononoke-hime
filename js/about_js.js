@@ -43,18 +43,32 @@ $(function(){
         $("#ash_cha").attr("src", "img/mononoke003.jpg")
     })
 
+    // ==============================
 
-    $("#san_cho2").click(function(){
-        $("#san").fadeIn();
-        $("#ashitaka").fadeOut();
-    })
-
-    $("#ashitaka_cho2").click(function(){
+    $("#up1").click(function(){
         $("#ashitaka").fadeIn();
         $("#san").fadeOut();
     })
 
+    $("#down1").click(function(){
+        $("#ashitaka").fadeIn();
+        $("#san").fadeOut();
+    })
+
+    $("#up2").click(function(){
+        $("#ashitaka").fadeOut();
+        $("#san").fadeIn();
+    })
+
+    $("#down2").click(function(){
+        $("#san").fadeIn();
+        $("#ashitaka").fadeOut();
+    })
 
 
+    // ==============================
+
+
+    
     
 })

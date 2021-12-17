@@ -71,6 +71,8 @@
         #down{
             bottom:0; 
         }
+
+     
 }
 
 @media(min-width:600px) and (max-width:700px){
@@ -149,6 +151,18 @@
             right:0;
             transform:rotate(-90deg)
         }
+
+#bt11_box{
+        width:20%; height:100%;   
+        margin-left:3%;
+        display:flex; justify-content: center; align-items: center;
+    }
+        
+        #bt11_box img{
+            width:15vw;
+            filter: invert(1);
+        }    
+
 }
 
 @media(min-width:701px) and (max-width:999px){
@@ -223,6 +237,17 @@
         #down{
             bottom:0; 
         }
+
+#bt11_box{
+        width:20%; height:100%;   
+        margin-left:3%;
+        display:flex; justify-content: center; align-items: center;
+    }
+        
+        #bt11_box img{
+            width:18vw;
+            filter: invert(1);
+        }    
 }
 
 @media(max-width:599px){
@@ -301,4 +326,5 @@
             right:0;
             transform:rotate(-90deg)
         }
+
 }
