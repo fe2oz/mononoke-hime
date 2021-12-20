@@ -1,3 +1,5 @@
+
+@media(min-width:1000px){
 html{
     width:100%; height:100vh;
     overflow: hidden;
@@ -91,6 +93,303 @@ body{
             width:8vw;
             filter: invert(1);
         }
+}
+
+@media(min-width:701px) and (max-width:999px){
+html{
+    width:100%; height:100vh;
+}
+
+body{
+    width:100%; height:100vh;
+    background-image: url(../../../img/만화영화-원령공주_한국어더빙2.avi_002391908.jpg);
+    background-repeat: no-repeat; background-size:100% 100%;
+}
+
+#slider{
+    width:100%; height:85vh;
+    display:flex; justify-content: center; align-items: center;
+    padding-top:2%;
+}
+    #sl_poster{
+        width:30%; height:auto;
+    }
+        #bp{
+            width:100%; height:50%;
+        }
+        #poster_show{
+            width:100%;
+            display:flex; flex-flow:column; justify-content: center;
+        }
+        #poster_show h1{
+            font-family: 'Pretendard-Regular'; font-size:2.3vw;
+            color:#006e8f;
+            padding:2%;
+            border-bottom:1px solid #006e8f;
+        }
+        #poster_show p{
+            font-family: 'Pretendard-Regular'; font-size:1.3vw;
+            color:#e5e5e5;
+            padding:2%;
+        }
+    #sl_character{
+        width:53%; height:auto;
+        position:relative; z-index:2;
+        display:flex; flex-flow:row wrap; align-items: center;
+        color:#e5e5e5;
+    }
+        #sl_crc_main{
+            width:100%; 
+            font-family: 'Hahmlet-Thin';
+            text-align: center;
+            margin-bottom:10%;
+        }
+            #sl_crc_main h1{
+                font-weight: bold; font-size:2.3vw;
+            }
+            #sl_crc_main h1 span{
+                font-size:0.8vw;
+            }
+            #sl_crc_main h2{
+                font-family: 'Pretendard-Regular'; font-weight: normal; font-size:1.5vw;
+            }
+        #sl_crc1,
+        #sl_crc2{
+            width:45%;
+        }
+        #sl_crc1{
+            font-family: 'Pretendard-Regular';
+            text-align: right; 
+            padding-right:5%
+        }
+            #sl_crc1 h4{
+                height:4vh;
+                font-size:1.5vw;
+            }
+            #sl_crc1 h4:nth-of-type(4){
+                height:10vh;
+            }
+        #sl_crc2{
+            font-family: 'Pretendard-Regular'; 
+            padding-left:5%;
+        }
+            #sl_crc2 h4{
+                height:4vh; 
+                font-weight: normal; font-size:1.5vw;
+            }
+            #sl_crc2 h4:nth-of-type(4){
+                height:10vh;
+            }
+
+    #bt11_box{
+        width:10%; height:100%;   
+        margin-left:3%;
+    }
+        
+        #bt11_box img{
+            width:8vw;
+            filter: invert(1);
+        }
+}
+
+@media(min-width:600px) and (max-width:700px){
+html{
+    width:100%;
+    overflow-x: auto;
+}
+
+body{
+    width:100%;
+    background-image: url(../../../img/만화영화-원령공주_한국어더빙2.avi_002391908.jpg);
+    background-repeat: no-repeat; background-size:100% 100%;
+}
+
+#slider{
+    width:100%; height:100%;
+    display:flex; justify-content: center; align-items: center; flex-flow:column;
+    padding-top:13%;
+}
+    #sl_poster{
+        width:60%; height:100%;
+    }
+        #bp{
+            width:100%; height:80%;
+        }
+        #poster_show{
+            width:100%;
+            display:flex; flex-flow:column; justify-content: center;
+        }
+        #poster_show h1{
+            font-family: 'Pretendard-Regular'; font-size:4.5vw;
+            color:#006e8f;
+            padding:2%;
+            border-bottom:1px solid #006e8f;
+        }
+        #poster_show p{
+            font-family: 'Pretendard-Regular'; font-size:2vw;
+            color:#e5e5e5;
+            padding:2%;
+        }
+    #sl_character{
+        width:60%; height:auto;
+        position:relative; z-index:2;
+        display:flex; flex-flow:row wrap; align-items: center;
+        margin-top:10%;
+        color:#e5e5e5;
+    }
+        #sl_crc_main{
+            width:100%; 
+            font-family: 'Hahmlet-Thin';
+            text-align: center;
+            margin-bottom:10%;
+        }
+            #sl_crc_main h1{
+                font-weight: bold; font-size:4.5vw;
+            }
+            #sl_crc_main h1 span{
+                font-size:1.6vw;
+            }
+            #sl_crc_main h2{
+                font-family: 'Pretendard-Regular'; font-weight: normal; font-size:2vw;
+            }
+        #sl_crc1,
+        #sl_crc2{
+            width:45%;
+        }
+        #sl_crc1{
+            font-family: 'Pretendard-Regular';
+            text-align: right; 
+            padding-right:5%
+        }
+            #sl_crc1 h4{
+                height:4vh;
+                font-size:2vw;
+            }
+            #sl_crc1 h4:nth-of-type(4){
+                height:15vh;
+            }
+        #sl_crc2{
+            font-family: 'Pretendard-Regular'; 
+            padding-left:5%;
+        }
+            #sl_crc2 h4{
+                height:4vh; 
+                font-weight: normal; font-size:2vw;
+            }
+            #sl_crc2 h4:nth-of-type(4){
+                height:15vh;
+            }
+
+    #bt11_box{
+        width:10%; height:100%;   
+        margin-left:3%;
+    }
+        
+        #bt11_box img{
+            width:8vw;
+            filter: invert(1);
+        }
+}
+
+@media(max-width:599px){
+    html{
+    width:100%; height:auto;
+}
+
+body{
+    width:100%; height:100%;
+    background-image: url(../../../img/만화영화-원령공주_한국어더빙2.avi_002391908.jpg);
+    background-repeat: no-repeat; background-size:100% 100%;
+}
+
+#slider{
+    width:100%; height:100%;
+    display:flex; justify-content: center; align-items: center; flex-flow:row wrap;
+    padding-top:80px;
+    position:relative;
+}
+    #sl_poster{
+        width:100%; height:100%;
+        display:flex; flex-flow:column; align-items: center;
+    }
+        #bp{
+            width:80%; height:60%;
+        }
+        #poster_show{
+            width:80%;
+            display:flex; flex-flow:column; justify-content: center;
+        }
+        #poster_show h1{
+            font-family: 'Pretendard-Regular'; font-size:5.8vw;
+            color:#006e8f;
+            padding:2%;
+            border-bottom:1px solid #006e8f;
+        }
+        #poster_show p{
+            font-family: 'Pretendard-Regular'; font-size:2.5vw;
+            color:#e5e5e5;
+            padding:2%;
+        }
+    #sl_character{
+        width:80%; height:auto;
+        position:relative; z-index:2;
+        display:flex; flex-flow:row wrap; align-items: center;
+        margin-top:10%;
+        color:#e5e5e5;
+    }
+        #sl_crc_main{
+            width:100%; 
+            font-family: 'Hahmlet-Thin';
+            text-align: center;
+            margin-bottom:10%;
+        }
+            #sl_crc_main h1{
+                font-weight: bold; font-size:5.8vw;
+            }
+            #sl_crc_main h1 span{
+                font-size:2.5vw;
+            }
+            #sl_crc_main h2{
+                font-family: 'Pretendard-Regular'; font-weight: normal; font-size:2.8vw;
+            }
+        #sl_crc1,
+        #sl_crc2{
+            width:45%;
+        }
+        #sl_crc1{
+            font-family: 'Pretendard-Regular';
+            text-align: right; 
+            padding-right:5%
+        }
+            #sl_crc1 h4{
+                height:4vh;
+                font-size:3vw;
+            }
+            #sl_crc1 h4:nth-of-type(4){
+                height:18vh;
+            }
+        #sl_crc2{
+            font-family: 'Pretendard-Regular'; 
+            padding-left:5%;
+        }
+            #sl_crc2 h4{
+                height:4vh; 
+                font-weight: normal; font-size:3vw;
+            }
+            #sl_crc2 h4:nth-of-type(4){
+                height:18vh;
+            }
+
+    #bt11_box{
+        width:10%; height:100%;   
+    }
+        
+        #bt11_box img{
+            width:8vw;
+            filter: invert(1);
+        }
+
+}
         
         
 
