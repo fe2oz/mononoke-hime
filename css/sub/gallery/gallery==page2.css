@@ -53,11 +53,11 @@
         position:relative;
     }
         
-        #ga_sl1{
+        .ga_sl1{
             width:18vw; height:18vh;
             cursor: pointer;
         }
-        #ga_sl1:hover{
+        .ga_sl1:hover{
             filter: opacity(0.8) drop-shadow(0 0 0 black);
         }
         #r_aw{
@@ -93,12 +93,12 @@
         padding-top:80px;
     }
         
-        #ga_sl1{
+        .ga_sl1{
             width:40vw; height:18vh;
             cursor: pointer;
             margin-bottom:3%;
         }
-        #ga_sl1:hover{
+        .ga_sl1:hover{
             filter: opacity(0.8) drop-shadow(0 0 0 black);
         }
         #r_aw{
@@ -133,12 +133,12 @@
         padding-top:80px;
     }
         
-        #ga_sl1{
+        .ga_sl1{
             width:40vw; height:18vh;
             cursor: pointer;
             margin-bottom:3%;
         }
-        #ga_sl1:hover{
+        .ga_sl1:hover{
             filter: opacity(0.8) drop-shadow(0 0 0 black);
         }
         #r_aw{
