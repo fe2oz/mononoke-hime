@@ -1,4 +1,6 @@
-
+iframe{
+    border: 0;
+}
 
 @media(min-width:1000px){
     html{
@@ -30,8 +32,10 @@
         #cv5,
         #cv6,
         #cv7{
+            width: 100%; height: 100%;
             position:absolute; top:0; left:0;
             transition:0.35s;
+            frameborder: 0;
         }
         
 
@@ -66,10 +70,10 @@
             filter:invert(1)
         }
         #up{
-            top:0;
+            top:0; left: 43%;
         }
         #down{
-            bottom:0; 
+            bottom:0; left: 43%;
         }
 
      
@@ -106,6 +110,7 @@
         #cv5,
         #cv6,
         #cv7{
+            width: 100%; height: 100%;
             position:absolute; top:0; left:0;
             transition:0.35s;
         }
@@ -144,11 +149,11 @@
             filter:invert(1)
         }
         #up{
-            left:0;
+            left:0; top: 30%;
             transform:rotate(-90deg)
         }
         #down{
-            right:0;
+            right:0%; top: 30%;
             transform:rotate(-90deg)
         }
 
@@ -196,6 +201,7 @@
         #cv5,
         #cv6,
         #cv7{
+            width: 100%; height: 100%;
             position:absolute; top:0; left:0;
             transition:0.35s;
         }
@@ -232,10 +238,10 @@
             filter:invert(1)
         }
         #up{
-            top:0;
+            top:0; left: 38%;
         }
         #down{
-            bottom:0; 
+            bottom:0; left: 38%;
         }
 
 #bt11_box{
@@ -281,6 +287,7 @@
         #cv5,
         #cv6,
         #cv7{
+            width: 100%; height: 100%;
             position:absolute; top:0; left:0;
             transition:0.35s;
         }
@@ -307,7 +314,7 @@
     }
         #up,
         #down{
-            width:8vw;
+            width:7vw;
             position:absolute; z-index:6;
             cursor:pointer;
             filter:invert(0);
@@ -319,11 +326,11 @@
             filter:invert(1)
         }
         #up{
-            left:0;
+            left:0; top: 30%;
             transform:rotate(-90deg)
         }
         #down{
-            right:0;
+            right:0; top: 30%;
             transform:rotate(-90deg)
         }
 
